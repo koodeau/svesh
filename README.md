@@ -57,7 +57,7 @@ You can omit the default settings by setting props to Svesh:
     export let identifier = "svesh";
 </script>
 
-<Svesh {colors} {groupColors} {prefix} {instances} {width} {height} {meshId} {fixMeshId} />
+<Svesh {colors} {groupColors} {prefix} {instances} {width} {height} {meshId} {fixMeshId} {identifier} />
 
 ```
 

@@ -1,6 +1,6 @@
 {
-	"name": "mesh",
-	"version": "0.0.1",
+	"name": "svesh",
+	"version": "1.0.0",
 	"license": "Apache-2.0",
 	"keywords": [
 		"svelte",
@@ -45,5 +45,6 @@
 		"vite": "^3.0.0"
 	},
 	"type": "module",
-	"svelte": "./src/lib/Svesh.svelte"
+	"main": "./index.js",
+  	"types": "./index.d.ts"
 }

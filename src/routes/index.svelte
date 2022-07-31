@@ -1,5 +1,5 @@
 <script>
-    import Svesh from "$lib/Svesh.svelte";
+    import { Svesh } from "$lib";
 
     const colors = ["#ef008f", "#6ec3f4", "#7038ff", "#ffba27"];
     const groupColors = true;

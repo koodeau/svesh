@@ -16,7 +16,7 @@ npm i --save-dev svesh
 
 ```svelte
 <script>
-    import Svesh from "$lib/Svesh.svelte";
+    import { Svesh } from "svesh";
 </script>
 
 <Svesh />
@@ -29,7 +29,7 @@ You can omit the default settings by setting props to Svesh:
 
 ```svelte
 <script>
-    import Svesh from "$lib/Svesh.svelte";
+    import { Svesh } from "svesh";
 
     // default: random
     const colors = ["#ef008f", "#6ec3f4", "#7038ff", "#ffba27"];

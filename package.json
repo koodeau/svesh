@@ -12,9 +12,9 @@
 		"ui",
 		"canvas"
 	],
-	"repository": "github:koodeau/mesh",
+	"repository": "github:koodeau/svesh",
 	"bugs": {
-		"url": "https://github.com/koodeau/mesh/issues",
+		"url": "https://github.com/koodeau/svesh/issues",
 		"email": "koodeau@gmail.com"
 	},
 	"author": {

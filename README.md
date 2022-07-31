@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Svesh" src="static/mesh.png" />
+  <img alt="Svesh" src="https://mintstack.ams3.cdn.digitaloceanspaces.com/static/img/svesh.png" />
 </p>
 
 # Svesh

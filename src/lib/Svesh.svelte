@@ -12,15 +12,16 @@
     export let height = 600;
     export let meshId = Math.floor(Math.random() * 1000);
     export let fixMeshId = false;
+    export let identifier = "svesh";
 
     onMount(() => {
       const mesh = []
       // const colors = [randomColor(), randomColor(), randomColor(), randomColor()];
       for (let index = 0; index < instances; index++) {
         const id = fixMeshId ? meshId : Math.floor(Math.random() * 1000);
-        const div = document.querySelector(".svesh")
+        const div = document.querySelector(`#${identifier}`)
         const canvas = document.createElement("canvas");
-        canvas.id = `${prefix}-${index+id}`;
+        canvas.id = `${prefix}-${identifier}-${index+id}`;
         mesh.push(canvas.id);
         canvas.setAttribute("data-transition-in", "");
         div.appendChild(canvas);
@@ -56,7 +57,7 @@
     });
   </script>
   
-  <div class="svesh">
+  <div id={identifier}>
   </div>
   
   <style>

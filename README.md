@@ -52,6 +52,9 @@ You can omit the default settings by setting props to Svesh:
 
     // default: false. Use this prevent other instances from generating their own meshId. Use this to set static gradient.
     const fixMeshId = true;
+
+    // default: svesh. Importnant: change this identifier if you want to use Svesh more than once in different places.
+    export let identifier = "svesh";
 </script>
 
 <Svesh {colors} {groupColors} {prefix} {instances} {width} {height} {meshId} {fixMeshId} />

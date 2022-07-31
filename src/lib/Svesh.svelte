@@ -59,7 +59,7 @@
   <div class="svesh">
   </div>
   
-  <style lang="scss">
+  <style>
     .svesh {
       width: 100%;
       height: 100%;

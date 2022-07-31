@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "target": "esnext",
+      "module": "esnext",
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": ".",
+      "checkJs": false
+    },
+    "extends": "./.svelte-kit/tsconfig.json",
+    "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
+  }
+  
